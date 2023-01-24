@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#carsWrapper {
+    width: 60vw;
+    height: 100vh;
+    background-color: #B0E0E6;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#formWrapper {
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #87CEEB;
+}
+
+#form {
+    width: 90%;
+}
+
+input[type=text],
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #1E90FF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#carsWrapper>* {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    word-break: break-all;
+    text-align: start;
+    transition: 0.3s;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.info {
+    transition: 0.3s;
+    display: none;
+    font-family: "Arial Black";
+    color: #1E90FF;
+    width: 80%;
+}
+
+#carsWrapper>*:hover {
+    background-image: url("/defaultImage.png") !important;
+}
+
+#carsWrapper>*:hover>.info {
+    display: block;
+}

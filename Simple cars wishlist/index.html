@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My car choices</title>
+    <link rel="stylesheet" href="/style">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="formWrapper">
+            <form id="form" action="/data" method="post">
+                <label for="Brand">Brand:</label>
+                <input type="text" id="Brand" name="Brand" placeholder="Volvo" required><br>
+
+                <label for="Name">Model:</label>
+                <input type="text" id="Name" name="Name" placeholder="XC90" required><br>
+
+                <label for="Transmission">Transmission:</label>
+                <select name="Transmission" id="Transmission" required>
+                    <option value="Automatic">Automatic</option>
+                    <option value="Manual">Manual</option>
+                </select><br>
+
+                <label for="Year">Year:</label>
+                <input type="number" id="Year" name="Year" placeholder="2006" required><br>
+
+                <label for="Link">Link:</label>
+                <input type="text" id="Link" name="Link"
+                placeholder="https://www.mobile.bg/pcgi/mobile.cgi?act=4&adv=21673018915286409&slink=r2gv81" required><br>
+
+                <label for="Owner">Owner:</label>
+                <input type="text" id="Owner" name="Owner" placeholder="Ivan" required><br>
+
+                <label for="Phone">Phone:</label>
+                <input type="text" id="Phone" name="Phone" placeholder="0899222711" required><br>
+
+                <label for="Image">Car Image:</label>
+                <input type="file" id="Image" name="Image" accept="image/png, image/jpeg" required><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div id="carsWrapper">
+
+        </div>
+    </div>
+    <script src="/s1"></script>
+</body>
+
+</html>

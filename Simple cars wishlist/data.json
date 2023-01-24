@@ -1,0 +1,42 @@
+{
+    "1674502041183": {
+        "Brand": "Volvo",
+        "Name": "XC90",
+        "Transmission": "Automatic",
+        "Year": "2006",
+        "Link": "https://www.mobile.bg/pcgi/mobile.cgi?act=4&adv=21673018915286409&slink=r2gv81",
+        "Owner": "Ivan",
+        "Phone": "0899222711",
+        "Image": "pic.png"
+    },
+    "1674552914881": {
+        "Brand": "Skoda",
+        "Name": "Octavia",
+        "Transmission": "Automatic",
+        "Year": "2018",
+        "Link": "https://www.mobile.bg/pcgi/mobile.cgi?act=4&adv=11673797858717019",
+        "Owner": "Dragan",
+        "Phone": "0899888711",
+        "Image": "11673797858717019_Jk.jpg"
+    },
+    "1674553014415": {
+        "Brand": "BMW",
+        "Name": "X5",
+        "Transmission": "Automatic",
+        "Year": "2005",
+        "Link": "https://www.mobile.bg/pcgi/mobile.cgi?act=4&adv=11652383190994821&slink=r3pfqx",
+        "Owner": "Petkan",
+        "Phone": "0899888799",
+        "Image": "11652383190994821_WS.jpg"
+    },
+    "1674553165006": {
+        "Brand": "Volvo",
+        "Name": "V50",
+        "Transmission": "Manual",
+        "Year": "2004",
+        "Link": "https://www.mobile.bg/pcgi/mobile.cgi?act=4&adv=11674046909710972&slink=r3pgmz",
+        "Owner": "Dimitar",
+        "Phone": "0877888777",
+        "Image": "11674046909710972_cS.jpg"
+    }
+}
