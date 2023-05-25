@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(180deg, rgba(227, 126, 53, 1) 0%, rgba(139, 69, 19, 1) 50%, rgba(67, 33, 9, 1) 100%);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    align-items: center;
+    box-shadow: 0px -2px 0px #432109 inset;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #432109;
+    padding: 8px 30px;
+    border-radius: 7px;
+    transition: all .3s ease;
+    font-weight: bold;
+}
+
+ul li a:hover,
+ul li a.active {
+    color: #FFF;
+    background: #432109;
+}
+
+#icon {
+    background-color: #432109;
+    padding: 5px 7px 3px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+#icon svg {
+    color: #FFF;
+    height: 28px;
+    transition: all .3s ease;
+}
+
+#icon:hover {
+    background: #FFF;
+}
+
+#icon:hover svg {
+    color: #432109;
+}
+
+#checkbox,
+#icon {
+    display: none;
+}
+
+/* Youtube link */
+.link {
+    position: fixed;
+    background-color: #D12322;
+    padding: 23px 40px;
+    right: -100px;
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .1s ease-in-out;
+}
+
+.link i {
+    padding-left: 7px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    background-color: black;
+}
+
+#wrapper {
+    width: 100%;
+    height: calc(100% - 70px);
+    overflow: auto;
+    display: grid;
+    justify-content: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-rows: repeat(auto-fill, 350px);
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 250px;
+    height: 350px;
+    background-position: center;
+    overflow: hidden;
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    /* top: 0rem; */
+    top: 21.8rem;
+    height: 100%;
+    color: #d6d6d6;
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    transition: all .5s ease;
+}
+
+.container:hover .card {
+    top: 0rem;
+}
+
+.card-info {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 250px;
+    height: 350px;
+}
+
+.info {
+    flex: 0.7;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+
+
+.getCard {
+    flex: 1;
+    width: 80%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    height: 50%;
+}
+
+.getCard:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.check {
+    flex: 0.4;
+    width: 20%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    height: 50%;
+}
+
+.check:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.button-wrapper {
+    display: flex;
+    width: 80%;
+    gap: 10px;
+    flex: 1;
+}
+
+#screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    z-index: 1;
+}
+
+#main-wrapper {
+    width: 100%;
+    height: calc(100% - 140px);
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#wrap-header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#drop-menu {
+    height: 80%;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+#drop-menu-pages {
+    height: 80%;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.dropdown-wrap {
+    display: flex;
+    align-items: center;
+    background-color: #fff5;
+    border-radius: 50px;
+    padding: 10px;
+    height: 60%;
+}
+
+
+.input-group {
+    height: 60%;
+    background-color: #fff5;
+    padding: 0 0.8rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+.card-input {
+    width: 100%;
+    padding: 0 0.5rem 0 0.3rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-group:hover {
+    background-color: #fff9;
+    box-shadow: 0 .1rem .4rem #0002;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #432109;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+
+#pagination {
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination button {
+    width: 30px;
+    height: 60%;
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #44AAEE;
+    margin: 5px;
+    transition: 0.4s;
+    color: #FFF;
+    font-size: 18px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#pagination button:hover {
+    background-color: #44EEAA;
+}
+
+#pagination button.active {
+    background-color: #44EEAA;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+#pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: linear-gradient(180deg, rgba(227, 126, 53, 1) 0%, rgba(139, 69, 19, 1) 50%, rgba(67, 33, 9, 1) 100%);
+        left: 0;
+        top: 0;
+        text-align: center;
+        display: none;
+        margin-top: 70px;
+    }
+
+    ul li {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    ul li a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    #icon {
+        display: block;
+    }
+
+    #checkbox:checked~ul {
+        display: block;
+    }
+
+    .dropdown-wrap {
+        padding: 0px;
+    }
+}

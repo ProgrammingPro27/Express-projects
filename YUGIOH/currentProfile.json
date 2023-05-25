@@ -1,0 +1,73 @@
+{
+    "playerMoney": 50000,
+    "cardLinks": [
+        "https://www.deviantart.com/akizaizinski01/gallery/56611397/japanese-version-cards",
+        "https://www.deviantart.com/waleedalmadani/gallery",
+        "https://www.deviantart.com/yugioh1733/gallery/67665341/yugioh-season-1"
+    ],
+    "cardCollection": {
+        "card3": {
+            "name": "Winged Dragon, Guardian of the Fortress #1",
+            "attack": 1400,
+            "defence": 1200,
+            "rank": 1.5,
+            "price": 1500,
+            "imgName": "blue.jpg",
+            "id": "card3"
+        },
+        "card2": {
+            "name": "Blue-Eyes White Dragon",
+            "attack": 3000,
+            "defence": 2500,
+            "rank": 3,
+            "price": 3000,
+            "imgName": "blueEyes.jpg",
+            "id": "card2"
+        },
+        "card227": {
+            "name": "Five-Headed Dragon",
+            "attack": 5000,
+            "defence": 5000,
+            "rank": 5,
+            "price": 5000,
+            "imgName": "Five-Headed Dragon.png",
+            "id": "card227"
+        },
+        "card12": {
+            "name": "Blue-Eyes Ultimate Dragon",
+            "attack": 4500,
+            "defence": 3800,
+            "rank": 4.5,
+            "price": 4500,
+            "imgName": "tripple.jpg",
+            "id": "card12"
+        },
+        "card148": {
+            "name": "Dragon Master Knight",
+            "attack": 5000,
+            "defence": 5000,
+            "rank": 5,
+            "price": 5000,
+            "imgName": "ultraqkdrakooon.png",
+            "id": "card148"
+        },
+        "card206": {
+            "name": "Left Arm of the Forbidden One",
+            "attack": 200,
+            "defence": 300,
+            "rank": 0.5,
+            "price": 500,
+            "imgName": "Left Arm of the Forbidden One.png",
+            "id": "card206"
+        },
+        "card208": {
+            "name": "Right Arm of the Forbidden One",
+            "attack": 200,
+            "defence": 300,
+            "rank": 0.5,
+            "price": 500,
+            "imgName": "Right Arm of the Forbidden One.png",
+            "id": "card208"
+        }
+    }
+}

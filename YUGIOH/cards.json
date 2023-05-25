@@ -1,0 +1,2062 @@
+{
+    "card1": {
+        "name": "Dark Ruler Ha Des",
+        "attack": 2450,
+        "defence": 1600,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "grozenStra6en.png",
+        "id": "card1"
+    },
+    "card2": {
+        "name": "Blue-Eyes White Dragon",
+        "attack": 3000,
+        "defence": 2500,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "blueEyes.jpg",
+        "id": "card2"
+    },
+    "card3": {
+        "name": "Winged Dragon, Guardian of the Fortress #1",
+        "attack": 1400,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "blue.jpg",
+        "id": "card3"
+    },
+    "card4": {
+        "name": "Baby Dragon",
+        "attack": 1200,
+        "defence": 700,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "orange.jpg",
+        "id": "card4"
+    },
+    "card5": {
+        "name": "B. Skull Dragon",
+        "attack": 3200,
+        "defence": 2500,
+        "rank": 3.5,
+        "price": 3500,
+        "imgName": "blackDrag.jpg",
+        "id": "card5"
+    },
+    "card6": {
+        "name": "Dark Magician",
+        "attack": 2500,
+        "defence": 2100,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "dark.jpg",
+        "id": "card6"
+    },
+    "card7": {
+        "name": "Dark Magician Girl",
+        "attack": 2000,
+        "defence": 1700,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "grill.jpg",
+        "id": "card7"
+    },
+    "card8": {
+        "name": "Gaia The Fierce Knight",
+        "attack": 2300,
+        "defence": 2100,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "gaia.jpg",
+        "id": "card8"
+    },
+    "card9": {
+        "name": "Red Eyes B. Dragon",
+        "attack": 2400,
+        "defence": 2000,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "redEyes.jpg",
+        "id": "card9"
+    },
+    "card10": {
+        "name": "Flame Swordsman",
+        "attack": 1800,
+        "defence": 1600,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "flamee.jpg",
+        "id": "card10"
+    },
+    "card11": {
+        "name": "Dark Necrofear",
+        "attack": 2200,
+        "defence": 2800,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "curse.jpg",
+        "id": "card11"
+    },
+    "card12": {
+        "name": "Blue-Eyes Ultimate Dragon",
+        "attack": 4500,
+        "defence": 3800,
+        "rank": 4.5,
+        "price": 4500,
+        "imgName": "tripple.jpg",
+        "id": "card12"
+    },
+    "card13": {
+        "name": "Red-Eyes Baby Dragon",
+        "attack": 1200,
+        "defence": 700,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "4erenMaluk.jpg",
+        "id": "card13"
+    },
+    "card14": {
+        "name": "Gearfried the Iron Knight",
+        "attack": 1800,
+        "defence": 1600,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "4erenVoinBRE.jpg",
+        "id": "card14"
+    },
+    "card15": {
+        "name": "Panther Warrior",
+        "attack": 2000,
+        "defence": 1600,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "4ernaPantera.jpg",
+        "id": "card15"
+    },
+    "card16": {
+        "name": "Winged Dragon, Guardian of the Fortress #2",
+        "attack": 1200,
+        "defence": 1000,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "4ervenDrakon.jpg",
+        "id": "card16"
+    },
+    "card17": {
+        "name": "Saggi the Dark Clown",
+        "attack": 600,
+        "defence": 1500,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "6akoo.jpg",
+        "id": "card17"
+    },
+    "card18": {
+        "name": "Morinphen",
+        "attack": 1550,
+        "defence": 1300,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "akulaGadna.jpg",
+        "id": "card18"
+    },
+    "card19": {
+        "name": "Armaill",
+        "attack": 700,
+        "defence": 1300,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "aramaram.jpg",
+        "id": "card19"
+    },
+    "card20": {
+        "name": "Battle Steer",
+        "attack": 1800,
+        "defence": 1300,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "batalStir.jpg",
+        "id": "card20"
+    },
+    "card21": {
+        "name": "Battle Warrior",
+        "attack": 700,
+        "defence": 1000,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "batalUoriar.jpg",
+        "id": "card21"
+    },
+    "card22": {
+        "name": "Insect Queen",
+        "attack": 2200,
+        "defence": 2400,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "bubole4ka.jpg",
+        "id": "card22"
+    },
+    "card23": {
+        "name": "Robot Buster Destruction Sword",
+        "attack": 1600,
+        "defence": 1200,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "busterRobot.jpg",
+        "id": "card23"
+    },
+    "card24": {
+        "name": "Celtic Guardian",
+        "attack": 1400,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "celticWarrior.jpg",
+        "id": "card24"
+    },
+    "card25": {
+        "name": "Gazelle the King of Mythical Beasts",
+        "attack": 1500,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "chimeraaa.jpg",
+        "id": "card25"
+    },
+    "card26": {
+        "name": "Anthrosaurus",
+        "attack": 1000,
+        "defence": 850,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "chudoVISHTE.jpg",
+        "id": "card26"
+    },
+    "card27": {
+        "name": "Man-Eating Plant",
+        "attack": 800,
+        "defence": 600,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "cveteAMAqko.jpg",
+        "id": "card27"
+    },
+    "card28": {
+        "name": "Queen's Knight",
+        "attack": 1500,
+        "defence": 1600,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "damaPika.jpg",
+        "id": "card28"
+    },
+    "card29": {
+        "name": "Darklord Marie",
+        "attack": 1700,
+        "defence": 1200,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "darkAngelS.jpg",
+        "id": "card29"
+    },
+    "card30": {
+        "name": "Hyozanryu",
+        "attack": 2100,
+        "defence": 2800,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "differentDragon.jpg",
+        "id": "card30"
+    },
+    "card31": {
+        "name": "Kojikocy",
+        "attack": 1500,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "durtak.jpg",
+        "id": "card31"
+    },
+    "card32": {
+        "name": "Gilford the Lightning",
+        "attack": 2800,
+        "defence": 1400,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "filmar.jpg",
+        "id": "card32"
+    },
+    "card33": {
+        "name": "Gatekeeper",
+        "attack": 1500,
+        "defence": 1800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "geitKiipar.jpg",
+        "id": "card33"
+    },
+    "card34": {
+        "name": "Alligator's Sword",
+        "attack": 1500,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "gekon.jpg",
+        "id": "card34"
+    },
+    "card35": {
+        "name": "Grappler",
+        "attack": 1300,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "grapller.jpg",
+        "id": "card35"
+    },
+    "card36": {
+        "name": "Fenrir",
+        "attack": 1400,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "greyWolf.jpg",
+        "id": "card36"
+    },
+    "card37": {
+        "name": "Chimera the Flying Mythical Beast",
+        "attack": 2100,
+        "defence": 1800,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "himera.jpg",
+        "id": "card37"
+    },
+    "card38": {
+        "name": "Krokodilus",
+        "attack": 1100,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "interesenKrokodil.jpg",
+        "id": "card38"
+    },
+    "card39": {
+        "name": "Cosmo Queen",
+        "attack": 2900,
+        "defence": 2450,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "izvunzemno.jpg",
+        "id": "card39"
+    },
+    "card40": {
+        "name": "Jinzo",
+        "attack": 2400,
+        "defence": 1500,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "jinzo.jpg",
+        "id": "card40"
+    },
+    "card41": {
+        "name": "Curse of Dragon",
+        "attack": 2000,
+        "defence": 1500,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "jultPederast.jpg",
+        "id": "card41"
+    },
+    "card42": {
+        "name": "Rock Ogre Grotto #1",
+        "attack": 800,
+        "defence": 1200,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "kamenenVoin.jpg",
+        "id": "card42"
+    },
+    "card43": {
+        "name": "Pendulum Machine",
+        "attack": 1750,
+        "defence": 2000,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "kosa4at.jpg",
+        "id": "card43"
+    },
+    "card44": {
+        "name": "Boulder Tortoise",
+        "attack": 1450,
+        "defence": 2200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "kostenurka.jpg",
+        "id": "card44"
+    },
+    "card45": {
+        "name": "30,000-Year White Turtle",
+        "attack": 1250,
+        "defence": 2100,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "kostenurkaTaa.jpg",
+        "id": "card45"
+    },
+    "card46": {
+        "name": "King's Knight",
+        "attack": 1600,
+        "defence": 1400,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "kral.jpg",
+        "id": "card46"
+    },
+    "card47": {
+        "name": "Rude Kaiser",
+        "attack": 1800,
+        "defence": 1600,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "krusidar.jpg",
+        "id": "card47"
+    },
+    "card48": {
+        "name": "Leogun",
+        "attack": 1750,
+        "defence": 1550,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "leogun.jpg",
+        "id": "card48"
+    },
+    "card49": {
+        "name": "Zolga",
+        "attack": 1700,
+        "defence": 1200,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "letq6tPla6t.jpg",
+        "id": "card49"
+    },
+    "card50": {
+        "name": "Dragon Seeker",
+        "attack": 2000,
+        "defence": 2100,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "lilavBek.jpg",
+        "id": "card50"
+    },
+    "card51": {
+        "name": "Summoned Skull",
+        "attack": 2500,
+        "defence": 1200,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "lo6Skelet.jpg",
+        "id": "card51"
+    },
+    "card52": {
+        "name": "Sea King Dragon",
+        "attack": 2000,
+        "defence": 1700,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "lokNes.jpg",
+        "id": "card52"
+    },
+    "card53": {
+        "name": "Launcher Spider",
+        "attack": 2200,
+        "defence": 2500,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "lun4ar.jpg",
+        "id": "card53"
+    },
+    "card54": {
+        "name": "Giltia the D. Knight",
+        "attack": 1850,
+        "defence": 1500,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "magiostnik.jpg",
+        "id": "card54"
+    },
+    "card55": {
+        "name": "Red Archery Girl",
+        "attack": 1400,
+        "defence": 1500,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "malkataRusalka.jpg",
+        "id": "card55"
+    },
+    "card56": {
+        "name": "Koumori Dragon",
+        "attack": 1500,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "malukHUI.jpg",
+        "id": "card56"
+    },
+    "card57": {
+        "name": "Mammoth Graveyard",
+        "attack": 1200,
+        "defence": 800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "mamut.jpg",
+        "id": "card57"
+    },
+    "card58": {
+        "name": "Masked Beast Des Gardius",
+        "attack": 3300,
+        "defence": 2500,
+        "rank": 3.5,
+        "price": 3500,
+        "imgName": "maskedBeast.jpg",
+        "id": "card58"
+    },
+    "card59": {
+        "name": "M-Warrior #1",
+        "attack": 1000,
+        "defence": 500,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "mUoriar.jpg",
+        "id": "card59"
+    },
+    "card60": {
+        "name": "M-Warrior #2",
+        "attack": 500,
+        "defence": 1000,
+        "rank": 0.5,
+        "price": 500,
+        "imgName": "muoriar2.jpg",
+        "id": "card60"
+    },
+    "card61": {
+        "name": "Hyosube",
+        "attack": 1500,
+        "defence": 900,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "narkoman.jpg",
+        "id": "card61"
+    },
+    "card62": {
+        "name": "Kamakiriman",
+        "attack": 1150,
+        "defence": 1400,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "nasekomoQko.jpg",
+        "id": "card62"
+    },
+    "card63": {
+        "name": "Battle Ox",
+        "attack": 1700,
+        "defence": 1000,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "negurNosorog.jpg",
+        "id": "card63"
+    },
+    "card64": {
+        "name": "Theinen the Great Sphinx",
+        "attack": 3000,
+        "defence": 2500,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "nqkuv4ernqk.jpg",
+        "id": "card64"
+    },
+    "card65": {
+        "name": "Beaver Warrior",
+        "attack": 1200,
+        "defence": 1500,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "nqkvaKaterica.jpg",
+        "id": "card65"
+    },
+    "card66": {
+        "name": "Perfectly Ultimate Great Moth",
+        "attack": 3500,
+        "defence": 3000,
+        "rank": 3.5,
+        "price": 3500,
+        "imgName": "nqkvaLarva.jpg",
+        "id": "card66"
+    },
+    "card67": {
+        "name": "Imperion Magnum the Superconductive Battlebot",
+        "attack": 4000,
+        "defence": 4000,
+        "rank": 4,
+        "price": 4000,
+        "imgName": "nqkvaQka.jpg",
+        "id": "card67"
+    },
+    "card68": {
+        "name": "Buster Blader the Destruction Swordsman",
+        "attack": 2600,
+        "defence": 2300,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "oshteBlader.jpg",
+        "id": "card68"
+    },
+    "card69": {
+        "name": "Gamma The Magnet Warrior",
+        "attack": 1500,
+        "defence": 1800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "pedalUoriarr.jpg",
+        "id": "card69"
+    },
+    "card70": {
+        "name": "Reflect Bounder",
+        "attack": 1700,
+        "defence": 1000,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "pegasusS.jpg",
+        "id": "card70"
+    },
+    "card71": {
+        "name": "Bolt Escargot",
+        "attack": 1400,
+        "defence": 1500,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "plujek.jpg",
+        "id": "card71"
+    },
+    "card72": {
+        "name": "Boar Soldier",
+        "attack": 2000,
+        "defence": 500,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "praseRicar.jpg",
+        "id": "card72"
+    },
+    "card73": {
+        "name": "Bickuribox",
+        "attack": 2300,
+        "defence": 2000,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "puika.jpg",
+        "id": "card73"
+    },
+    "card74": {
+        "name": "Hibikime",
+        "attack": 1450,
+        "defence": 1000,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "qkaMadama.jpg",
+        "id": "card74"
+    },
+    "card75": {
+        "name": "Ryu-Kishin Powered",
+        "attack": 1600,
+        "defence": 1200,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "qkDrakon.jpg",
+        "id": "card75"
+    },
+    "card76": {
+        "name": "Makyura the Destructor",
+        "attack": 1600,
+        "defence": 1200,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "qkPi4aga.jpg",
+        "id": "card76"
+    },
+    "card77": {
+        "name": "Axe Raider",
+        "attack": 1700,
+        "defence": 1150,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "ricar.jpg",
+        "id": "card77"
+    },
+    "card78": {
+        "name": "Jack's Knight",
+        "attack": 1900,
+        "defence": 1000,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "ricarNaKral.jpg",
+        "id": "card78"
+    },
+    "card79": {
+        "name": "Machine Attacker",
+        "attack": 1600,
+        "defence": 1300,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "robot.jpg",
+        "id": "card79"
+    },
+    "card80": {
+        "name": "Machine King",
+        "attack": 2200,
+        "defence": 2000,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "robot2.jpg",
+        "id": "card80"
+    },
+    "card81": {
+        "name": "Vorse Raider",
+        "attack": 1900,
+        "defence": 1200,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "roker.jpg",
+        "id": "card81"
+    },
+    "card82": {
+        "name": "Zoa",
+        "attack": 2600,
+        "defence": 1900,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "sinDrakonHUI.jpg",
+        "id": "card82"
+    },
+    "card83": {
+        "name": "Buster Blader",
+        "attack": 2600,
+        "defence": 2300,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "sinRicarPedal.jpg",
+        "id": "card83"
+    },
+    "card84": {
+        "name": "Ground Attacker Bugroth",
+        "attack": 1500,
+        "defence": 1000,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "slabKosmi4eskiKorab.jpg",
+        "id": "card84"
+    },
+    "card85": {
+        "name": "Familiar Knight",
+        "attack": 1200,
+        "defence": 1400,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "slabRicar.jpg",
+        "id": "card85"
+    },
+    "card86": {
+        "name": "Slot Machine",
+        "attack": 2000,
+        "defence": 2300,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "slotmachine.jpg",
+        "id": "card86"
+    },
+    "card87": {
+        "name": "Swordstalker",
+        "attack": 2000,
+        "defence": 1600,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "swordstalker.jpg",
+        "id": "card87"
+    },
+    "card88": {
+        "name": "Tiger Axe",
+        "attack": 1300,
+        "defence": 1100,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "tigar.jpg",
+        "id": "card88"
+    },
+    "card89": {
+        "name": "Toon Buster Blader",
+        "attack": 2600,
+        "defence": 2300,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "toonBlader.jpg",
+        "id": "card89"
+    },
+    "card90": {
+        "name": "Mechanicalchaser",
+        "attack": 1850,
+        "defence": 800,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "topkaRobot.jpg",
+        "id": "card90"
+    },
+    "card91": {
+        "name": "Dark Rabbit",
+        "attack": 1100,
+        "defence": 1500,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "zaekk.jpg",
+        "id": "card91"
+    },
+    "card92": {
+        "name": "Worm Drake",
+        "attack": 1400,
+        "defence": 1500,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "zelenaGadost.jpg",
+        "id": "card92"
+    },
+    "card93": {
+        "name": "Grand Tiki Elder",
+        "attack": 1500,
+        "defence": 800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "zelenoo.jpg",
+        "id": "card93"
+    },
+    "card94": {
+        "name": "Air Eater",
+        "attack": 2100,
+        "defence": 1600,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "zelenQdec.jpg",
+        "id": "card94"
+    },
+    "card95": {
+        "name": "Shining Abyss",
+        "attack": 1600,
+        "defence": 1800,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "zlatenGeifar.jpg",
+        "id": "card95"
+    },
+    "card96": {
+        "name": "Royal Guard",
+        "attack": 1900,
+        "defence": 2200,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "roql.jpg",
+        "id": "card96"
+    },
+    "card97": {
+        "name": "Blackland Fire Dragon",
+        "attack": 1500,
+        "defence": 800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "zelenDrakon.jpg",
+        "id": "card97"
+    },
+    "card98": {
+        "name": "Mirage Knight",
+        "attack": 2800,
+        "defence": 2000,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "naitt.jpg",
+        "id": "card98"
+    },
+    "card99": {
+        "name": "Rocket Warrior",
+        "attack": 1500,
+        "defence": 1300,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "igra4ka.jpg",
+        "id": "card99"
+    },
+    "card100": {
+        "name": "Alpha The Magnet Warrior",
+        "attack": 1400,
+        "defence": 1700,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "alpha.jpg",
+        "id": "card100"
+    },
+    "card101": {
+        "name": "Little-Winguard",
+        "attack": 1400,
+        "defence": 1800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "sme6ko.jpg",
+        "id": "card101"
+    },
+    "card102": {
+        "name": "Amphibian Beast",
+        "attack": 2400,
+        "defence": 2000,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "zelenPendo.jpg",
+        "id": "card102"
+    },
+    "card103": {
+        "name": "Cyber Raider",
+        "attack": 1400,
+        "defence": 1000,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "reinjar.jpg",
+        "id": "card103"
+    },
+    "card104": {
+        "name": "Berfomet",
+        "attack": 1400,
+        "defence": 1800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "berfonet.jpg",
+        "id": "card104"
+    },
+    "card105": {
+        "name": "Flame Cerberus",
+        "attack": 2100,
+        "defence": 1800,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "qdosanMe4ok.jpg",
+        "id": "card105"
+    },
+    "card106": {
+        "name": "The Fiend Megacyber",
+        "attack": 2200,
+        "defence": 1200,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "megakiper.jpg",
+        "id": "card106"
+    },
+    "card107": {
+        "name": "Humanoid Slime",
+        "attack": 800,
+        "defence": 2000,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "slizz.jpg",
+        "id": "card107"
+    },
+    "card108": {
+        "name": "Illusionist Faceless Mage",
+        "attack": 1200,
+        "defence": 2200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "magical.jpg",
+        "id": "card108"
+    },
+    "card109": {
+        "name": "Lord of D.",
+        "attack": 1200,
+        "defence": 1100,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "lord4e.jpg",
+        "id": "card109"
+    },
+    "card110": {
+        "name": "Legendary Fiend",
+        "attack": 1500,
+        "defence": 1800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "2heds.jpg",
+        "id": "card110"
+    },
+    "card111": {
+        "name": "Vampiric Leech",
+        "attack": 500,
+        "defence": 1200,
+        "rank": 0.5,
+        "price": 500,
+        "imgName": "parazit.jpg",
+        "id": "card111"
+    },
+    "card112": {
+        "name": "Hino-Kagu-Tsuchi",
+        "attack": 2800,
+        "defence": 2900,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "groznik.jpg",
+        "id": "card112"
+    },
+    "card113": {
+        "name": "Susa Soldier",
+        "attack": 2000,
+        "defence": 1600,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "qkkUR.jpg",
+        "id": "card113"
+    },
+    "card114": {
+        "name": "Great Long Nose",
+        "attack": 1900,
+        "defence": 1700,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "interesqga.jpg",
+        "id": "card114"
+    },
+    "card115": {
+        "name": "Spear Dragon",
+        "attack": 1900,
+        "defence": 0,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "strann.jpg",
+        "id": "card115"
+    },
+    "card116": {
+        "name": "Cave Dragon",
+        "attack": 2000,
+        "defence": 100,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "durta.jpg",
+        "id": "card116"
+    },
+    "card117": {
+        "name": "Rare Metal Dragon",
+        "attack": 2400,
+        "defence": 1200,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "leden.jpg",
+        "id": "card117"
+    },
+    "card118": {
+        "name": "Kaiser Glider",
+        "attack": 2400,
+        "defence": 2000,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "kaiser.jpg",
+        "id": "card118"
+    },
+    "card119": {
+        "name": "Thousand Dragon",
+        "attack": 2400,
+        "defence": 2000,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "oldDrag.jpg",
+        "id": "card119"
+    },
+    "card120": {
+        "name": "Cyber Soldier of Darkworld",
+        "attack": 1400,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "kiber.jpg",
+        "id": "card120"
+    },
+    "card121": {
+        "name": "Cyber Soldier",
+        "attack": 1500,
+        "defence": 1700,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "vujnik.jpg",
+        "id": "card121"
+    },
+    "card122": {
+        "name": "Megasonic Eye",
+        "attack": 1500,
+        "defence": 1800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "baroks.jpg",
+        "id": "card122"
+    },
+    "card123": {
+        "name": "Dark Chimera",
+        "attack": 1610,
+        "defence": 1460,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "himerataa.jpg",
+        "id": "card123"
+    },
+    "card124": {
+        "name": "Metal Guardian",
+        "attack": 1150,
+        "defence": 2150,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "podvijen.jpg",
+        "id": "card124"
+    },
+    "card125": {
+        "name": "Zanki",
+        "attack": 1500,
+        "defence": 1700,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "samurai.jpg",
+        "id": "card125"
+    },
+    "card126": {
+        "name": "Strike Ninja",
+        "attack": 1700,
+        "defence": 1200,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "straik.jpg",
+        "id": "card126"
+    },
+    "card127": {
+        "name": "Inpachi",
+        "attack": 1600,
+        "defence": 1900,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "inpa4i.jpg",
+        "id": "card127"
+    },
+    "card128": {
+        "name": "Toon Alligator",
+        "attack": 800,
+        "defence": 1600,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "toonligat.jpg",
+        "id": "card128"
+    },
+    "card129": {
+        "name": "Crawling Dragon",
+        "attack": 1600,
+        "defence": 1400,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "pulzq6t.jpg",
+        "id": "card129"
+    },
+    "card130": {
+        "name": "Ryu-Kishin",
+        "attack": 1000,
+        "defence": 500,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "riu.jpg",
+        "id": "card130"
+    },
+    "card131": {
+        "name": "Mystic Horseman",
+        "attack": 1300,
+        "defence": 1550,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "horsman.jpg",
+        "id": "card131"
+    },
+    "card132": {
+        "name": "Dragon Zombie",
+        "attack": 1600,
+        "defence": 0,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "zombi.jpg",
+        "id": "card132"
+    },
+    "card133": {
+        "name": "The Legendary Fisherman",
+        "attack": 1850,
+        "defence": 1600,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "makocunami.jpg",
+        "id": "card133"
+    },
+    "card134": {
+        "name": "Juragedo",
+        "attack": 1700,
+        "defence": 1300,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "jugerdo.jpg",
+        "id": "card134"
+    },
+    "card135": {
+        "name": "Swamp Battleguard",
+        "attack": 1800,
+        "defence": 1500,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "swamps.jpg",
+        "id": "card135"
+    },
+    "card136": {
+        "name": "Lava Battleguard",
+        "attack": 1550,
+        "defence": 1800,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "swampge.jpg",
+        "id": "card136"
+    },
+    "card137": {
+        "name": "King of Yamimakai",
+        "attack": 2000,
+        "defence": 1530,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "yamimakai.jpg",
+        "id": "card137"
+    },
+    "card138": {
+        "name": "Garoozis",
+        "attack": 1800,
+        "defence": 1500,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "Garoozis.jpg",
+        "id": "card138"
+    },
+    "card139": {
+        "name": "Hero of the East",
+        "attack": 1100,
+        "defence": 1000,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Hero of the East.png",
+        "id": "card139"
+    },
+    "card140": {
+        "name": "Giant Mech-Soldier",
+        "attack": 1750,
+        "defence": 1900,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "Giant Mech Soldier.jpg",
+        "id": "card140"
+    },
+    "card141": {
+        "name": "Togex",
+        "attack": 1600,
+        "defence": 1800,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "Togex.jpg",
+        "id": "card141"
+    },
+    "card142": {
+        "name": "Soul Of Purity And Light",
+        "attack": 2000,
+        "defence": 1800,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "soul of purity and light.jpg",
+        "id": "card142"
+    },
+    "card143": {
+        "name": "Thunder Dragon",
+        "attack": 1600,
+        "defence": 1500,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "Thunder Dragon.jpg",
+        "id": "card143"
+    },
+    "card144": {
+        "name": "Asura Priest",
+        "attack": 1700,
+        "defence": 1200,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "asura priest.jpg",
+        "id": "card144"
+    },
+    "card145": {
+        "name": "Catapult Turtle",
+        "attack": 1000,
+        "defence": 2000,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "catapult.jpg",
+        "id": "card145"
+    },
+    "card146": {
+        "name": "Cannon Soldier",
+        "attack": 1400,
+        "defence": 1300,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "cannonsoldier.jpg",
+        "id": "card146"
+    },
+    "card147": {
+        "name": "Cyber Commander",
+        "attack": 750,
+        "defence": 700,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "kiberkomandir.jpg",
+        "id": "card147"
+    },
+    "card148": {
+        "name": "Dragon Master Knight",
+        "attack": 5000,
+        "defence": 5000,
+        "rank": 5,
+        "price": 5000,
+        "imgName": "ultraqkdrakooon.png",
+        "id": "card148"
+    },
+    "card149": {
+        "name": "Grifore",
+        "attack": 1200,
+        "defence": 1500,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "grifore.png",
+        "id": "card149"
+    },
+    "card150": {
+        "name": "Sangan",
+        "attack": 1000,
+        "defence": 600,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "sengan.png",
+        "id": "card150"
+    },
+    "card151": {
+        "name": "Flying Penguin",
+        "attack": 1200,
+        "defence": 1000,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "ping123.png",
+        "id": "card151"
+    },
+    "card152": {
+        "name": "Bolt Penguin",
+        "attack": 1100,
+        "defence": 800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "pingi1.png",
+        "id": "card152"
+    },
+    "card153": {
+        "name": "Necro Jar",
+        "attack": 1100,
+        "defence": 300,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "necroJar.png",
+        "id": "card153"
+    },
+    "card154": {
+        "name": "Rocket Warrior",
+        "attack": 1500,
+        "defence": 1300,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Rocket Warrior.png",
+        "id": "card154"
+    },
+    "card155": {
+        "name": "Royal Straight Slasher",
+        "attack": 2400,
+        "defence": 1350,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "royalStraighttt.png",
+        "id": "card155"
+    },
+    "card156": {
+        "name": "Amazoness Chain Master",
+        "attack": 1500,
+        "defence": 1300,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "borbenata.png",
+        "id": "card156"
+    },
+    "card157": {
+        "name": "Beta The Magnet Warrior",
+        "attack": 1700,
+        "defence": 1600,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "igra4iiiiKO.png",
+        "id": "card157"
+    },
+    "card158": {
+        "name": "Sengenjin",
+        "attack": 2750,
+        "defence": 2500,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "sengingjin.png",
+        "id": "card158"
+    },
+    "card159": {
+        "name": "The Snake Hair",
+        "attack": 1500,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "meduzzz.png",
+        "id": "card159"
+    },
+    "card160": {
+        "name": "The Unfriendly Amazon",
+        "attack": 2000,
+        "defence": 1000,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "amazonka.png",
+        "id": "card160"
+    },
+    "card161": {
+        "name": "Melchid the Four-Face Beast",
+        "attack": 1500,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "maskataZV.png",
+        "id": "card161"
+    },
+    "card162": {
+        "name": "Sword Arm of Dragon",
+        "attack": 1750,
+        "defence": 2030,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "Sword Arm of Dragon.png",
+        "id": "card162"
+    },
+    "card163": {
+        "name": "Megazowler",
+        "attack": 1800,
+        "defence": 2000,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "Megazowler.png",
+        "id": "card163"
+    },
+    "card164": {
+        "name": "Chthonian Soldier",
+        "attack": 1200,
+        "defence": 1400,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Chthonian Soldier.png",
+        "id": "card164"
+    },
+    "card165": {
+        "name": "Science Soldier",
+        "attack": 800,
+        "defence": 800,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "robot4iiik.png",
+        "id": "card165"
+    },
+    "card166": {
+        "name": "Gilford the Legend",
+        "attack": 2600,
+        "defence": 1800,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "faraon4utu.png",
+        "id": "card166"
+    },
+    "card167": {
+        "name": "Wolf",
+        "attack": 1200,
+        "defence": 800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Wolf.png",
+        "id": "card167"
+    },
+    "card168": {
+        "name": "Jirai Gumo",
+        "attack": 2200,
+        "defence": 100,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "Jirai Gumo.png",
+        "id": "card168"
+    },
+    "card169": {
+        "name": "Dark Titan of Terror",
+        "attack": 1300,
+        "defence": 1100,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Dark Titan of Terror.png",
+        "id": "card169"
+    },
+    "card170": {
+        "name": "Dark Magician Knight",
+        "attack": 2500,
+        "defence": 2100,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "Dark Magician Knight.png",
+        "id": "card170"
+    },
+    "card171": {
+        "name": "Dark Sage",
+        "attack": 2800,
+        "defence": 3200,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "Dark Sage.png",
+        "id": "card171"
+    },
+    "card172": {
+        "name": "Big Shield Gardna",
+        "attack": 100,
+        "defence": 2600,
+        "rank": 0.5,
+        "price": 500,
+        "imgName": "Big Shield Gardna.png",
+        "id": "card172"
+    },
+    "card173": {
+        "name": "Judge Man",
+        "attack": 2200,
+        "defence": 1500,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "QKOBOJWE.png",
+        "id": "card173"
+    },
+    "card174": {
+        "name": "Amazoness Fighter",
+        "attack": 1500,
+        "defence": 1600,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "bojebanie.png",
+        "id": "card174"
+    },
+    "card175": {
+        "name": "Sword Hunter",
+        "attack": 2450,
+        "defence": 1700,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "Sword Hunter.png",
+        "id": "card175"
+    },
+    "card176": {
+        "name": "Lady of Faith",
+        "attack": 1100,
+        "defence": 800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "nopraydying.png",
+        "id": "card176"
+    },
+    "card177": {
+        "name": "Iron Hans",
+        "attack": 1200,
+        "defence": 800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Iron Hans.png",
+        "id": "card177"
+    },
+    "card178": {
+        "name": "Armageddon Knight",
+        "attack": 1400,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Dark Armageddon Knight.png",
+        "id": "card178"
+    },
+    "card179": {
+        "name": "Mysterious Guard",
+        "attack": 800,
+        "defence": 1200,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "Mysterious Guard.png",
+        "id": "card179"
+    },
+    "card180": {
+        "name": "Big Insect",
+        "attack": 1200,
+        "defence": 1500,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "4ernataK.png",
+        "id": "card180"
+    },
+    "card181": {
+        "name": "Dungeon Worm",
+        "attack": 1800,
+        "defence": 1500,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "Dungeon Worm.png",
+        "id": "card181"
+    },
+    "card182": {
+        "name": "Silver Fang",
+        "attack": 1200,
+        "defence": 800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "sikver.png",
+        "id": "card182"
+    },
+    "card183": {
+        "name": "Blade Knight",
+        "attack": 1600,
+        "defence": 1000,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "bliid.png",
+        "id": "card183"
+    },
+    "card184": {
+        "name": "Blue-Eyes Shining Dragon",
+        "attack": 3000,
+        "defence": 2500,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "svetal.png",
+        "id": "card184"
+    },
+    "card185": {
+        "name": "Aqua Madoor",
+        "attack": 1200,
+        "defence": 2000,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "akwata.png",
+        "id": "card185"
+    },
+    "card186": {
+        "name": "Sonic Maid",
+        "attack": 1200,
+        "defence": 900,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "MUSE2.png",
+        "id": "card186"
+    },
+    "card187": {
+        "name": "Beautiful Headhuntress",
+        "attack": 1600,
+        "defence": 800,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "zakurasakura.png",
+        "id": "card187"
+    },
+    "card188": {
+        "name": "Neo Aqua Madoor",
+        "attack": 1200,
+        "defence": 3000,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "drugPENASD.png",
+        "id": "card188"
+    },
+    "card189": {
+        "name": "Kinetic Soldier",
+        "attack": 1350,
+        "defence": 1800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Kinetic Soldier.png",
+        "id": "card189"
+    },
+    "card190": {
+        "name": "Amazoness Swords Woman",
+        "attack": 1500,
+        "defence": 1600,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "amazonkabruh.png",
+        "id": "card190"
+    },
+    "card191": {
+        "name": "Greenkappa",
+        "attack": 650,
+        "defence": 900,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "Greenkappa.png",
+        "id": "card191"
+    },
+    "card192": {
+        "name": "Psychic Kappa",
+        "attack": 400,
+        "defence": 1000,
+        "rank": 0.5,
+        "price": 500,
+        "imgName": "Psychic Kappa.png",
+        "id": "card192"
+    },
+    "card193": {
+        "name": "Karbonala Warrior",
+        "attack": 1500,
+        "defence": 1200,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Karbonala Warrior.png",
+        "id": "card193"
+    },
+    "card194": {
+        "name": "Dragoness the Wicked Knight",
+        "attack": 1200,
+        "defence": 900,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Dragoness the Wicked Knight.png",
+        "id": "card194"
+    },
+    "card195": {
+        "name": "Mushroom Man #2",
+        "attack": 1250,
+        "defence": 800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Mushroom Man.png",
+        "id": "card195"
+    },
+    "card196": {
+        "name": "Zombie Jinzo",
+        "attack": 1200,
+        "defence": 800,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "obladanGrozen.png",
+        "id": "card196"
+    },
+    "card197": {
+        "name": "Metalzoa",
+        "attack": 3000,
+        "defence": 2300,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "Metalzoa.png",
+        "id": "card197"
+    },
+    "card198": {
+        "name": "Desperado Barrel Dragon",
+        "attack": 2800,
+        "defence": 2200,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "Desperado Barrel Dragon.png",
+        "id": "card198"
+    },
+    "card199": {
+        "name": "Spirit Of The Harp",
+        "attack": 800,
+        "defence": 2000,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "muse3.png",
+        "id": "card199"
+    },
+    "card200": {
+        "name": "Iron Knight",
+        "attack": 1700,
+        "defence": 700,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "Iron Knight.png",
+        "id": "card200"
+    },
+    "card201": {
+        "name": "Monster Tamer",
+        "attack": 1800,
+        "defence": 1600,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "Monster Tamer.png",
+        "id": "card201"
+    },
+    "card202": {
+        "name": "Dark Magician the Dragon Knight",
+        "attack": 3000,
+        "defence": 2500,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "Dark Magician the Dragon Knight.png",
+        "id": "card202"
+    },
+    "card203": {
+        "name": "Freed the Matchless General",
+        "attack": 2300,
+        "defence": 1700,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "Freed the Matchless General.png",
+        "id": "card203"
+    },
+    "card204": {
+        "name": "Kamionwizard",
+        "attack": 1300,
+        "defence": 1100,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Kamionwizard.jpg",
+        "id": "card204"
+    },
+    "card205": {
+        "name": "Aqua Dragon",
+        "attack": 2250,
+        "defence": 1900,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "Aqua Dragon.png",
+        "id": "card205"
+    },
+    "card206": {
+        "name": "Left Arm of the Forbidden One",
+        "attack": 200,
+        "defence": 300,
+        "rank": 0.5,
+        "price": 500,
+        "imgName": "Left Arm of the Forbidden One.png",
+        "id": "card206"
+    },
+    "card207": {
+        "name": "Exodia the Forbidden One",
+        "attack": 1000,
+        "defence": 1000,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "Exodia the Forbidden One.png",
+        "id": "card207"
+    },
+    "card208": {
+        "name": "Right Arm of the Forbidden One",
+        "attack": 200,
+        "defence": 300,
+        "rank": 0.5,
+        "price": 500,
+        "imgName": "Right Arm of the Forbidden One.png",
+        "id": "card208"
+    },
+    "card209": {
+        "name": "Left Leg of the Forbidden One",
+        "attack": 200,
+        "defence": 300,
+        "rank": 0.5,
+        "price": 500,
+        "imgName": "Left Leg of the Forbidden One.png",
+        "id": "card209"
+    },
+    "card210": {
+        "name": "Right Leg of the Forbidden One",
+        "attack": 200,
+        "defence": 300,
+        "rank": 0.5,
+        "price": 500,
+        "imgName": "Right Leg of the Forbidden One.png",
+        "id": "card210"
+    },
+    "card211": {
+        "name": "Blocker",
+        "attack": 850,
+        "defence": 1800,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "Blocker.png",
+        "id": "card211"
+    },
+    "card212": {
+        "name": "Synchar",
+        "attack": 800,
+        "defence": 900,
+        "rank": 1,
+        "price": 1000,
+        "imgName": "Synchar.png",
+        "id": "card212"
+    },
+    "card213": {
+        "name": "Kanan the Swordmistress",
+        "attack": 1400,
+        "defence": 1400,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Kanan the Swordmistress.jpg",
+        "id": "card213"
+    },
+    "card214": {
+        "name": "Amazon of the Seas",
+        "attack": 1300,
+        "defence": 1400,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Amazon of the Seas.png",
+        "id": "card214"
+    },
+    "card215": {
+        "name": "Manga Ryu-Ran",
+        "attack": 2600,
+        "defence": 2200,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "ryu ran.jpg",
+        "id": "card215"
+    },
+    "card216": {
+        "name": "Harpie's Pet Dragon",
+        "attack": 2000,
+        "defence": 2500,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "pet dragon.jpg",
+        "id": "card216"
+    },
+    "card217": {
+        "name": "Guardian Grarl",
+        "attack": 2500,
+        "defence": 1000,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "Guardian Grarl.png",
+        "id": "card217"
+    },
+    "card218": {
+        "name": "Dragon Statue",
+        "attack": 1100,
+        "defence": 900,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Dragon Statue.jpg",
+        "id": "card218"
+    },
+    "card219": {
+        "name": "Kazejin",
+        "attack": 2400,
+        "defence": 2200,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "Kazejin.jpg",
+        "id": "card219"
+    },
+    "card220": {
+        "name": "Suijin",
+        "attack": 2500,
+        "defence": 2400,
+        "rank": 2.5,
+        "price": 2500,
+        "imgName": "Suijin.jpg",
+        "id": "card220"
+    },
+    "card221": {
+        "name": "Sanga of the Thunder",
+        "attack": 2600,
+        "defence": 2200,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "Sanga of the Thunder.jpg",
+        "id": "card221"
+    },
+    "card222": {
+        "name": "Gate Guardian",
+        "attack": 3750,
+        "defence": 3400,
+        "rank": 4,
+        "price": 4000,
+        "imgName": "Gate Guardian.jpg",
+        "id": "card222"
+    },
+    "card223": {
+        "name": "Rogue Doll",
+        "attack": 1600,
+        "defence": 1000,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "Rogue Doll.png",
+        "id": "card223"
+    },
+    "card224": {
+        "name": "Barrel Dragon",
+        "attack": 2600,
+        "defence": 2200,
+        "rank": 3,
+        "price": 3000,
+        "imgName": "Barrel Dragon.png",
+        "id": "card224"
+    },
+    "card225": {
+        "name": "Marauding Captain",
+        "attack": 1200,
+        "defence": 400,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Marauding Captain.png",
+        "id": "card225"
+    },
+    "card226": {
+        "name": "Steel Ogre Grotto #2",
+        "attack": 1900,
+        "defence": 2200,
+        "rank": 2,
+        "price": 2000,
+        "imgName": "Steel Ogre Grotto.png",
+        "id": "card226"
+    },
+    "card227": {
+        "name": "Five-Headed Dragon",
+        "attack": 5000,
+        "defence": 5000,
+        "rank": 5,
+        "price": 5000,
+        "imgName": "Five-Headed Dragon.png",
+        "id": "card227"
+    },
+    "card228": {
+        "name": "Barox",
+        "attack": 1380,
+        "defence": 1530,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "Barox.png",
+        "id": "card228"
+    },
+    "card229": {
+        "name": "The Wicked Worm Beast",
+        "attack": 1400,
+        "defence": 700,
+        "rank": 1.5,
+        "price": 1500,
+        "imgName": "The Wicked Worm Beast.png"
+    }
+}

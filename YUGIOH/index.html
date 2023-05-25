@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="screen"></div>
+
+    <nav>
+        <img src="/cardImages/yugioh logo.png" alt="" style="width:130px; height:40px">
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" id="icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                </path>
+            </svg>
+        </label>
+        <ul style="z-index:1;">
+            <!--<li><a href="/" target="_self" disabled>Play</a></li>-->
+            <li><a href="/deck" target="_self" disabled>Deck</a></li>
+            <li><a href="/" target="_self">Shop</a></li>
+            <li><a href="/cardForm" target="_self">Card maker</a></li>
+        </ul>
+    </nav>
+    <div id="main-wrapper">
+        <div id="wrap-header">
+            <div style="height:100%; display:flex; align-items:center; gap:2%;">
+                <div class="input-group">
+                    <input class="card-input" type="search" placeholder="Search Data...">
+                    <img style="width: 1.2rem;  height: 1.2rem; cursor: pointer;" src="/cardImages/search.png" alt="">
+                </div>
+                <div class="dropdown-wrap">
+                    <select name="drop-down" id="drop-menu">
+                        <optgroup label="Attack">
+                            <option>0 - 500</option>
+                            <option>500 - 1000</option>
+                            <option>1000 - 1500</option>
+                            <option>1500 - 2000</option>
+                            <option>2000 - 2500</option>
+                            <option>2500 - 3000</option>
+                            <option>3000 - 3500</option>
+                            <option>3500 - 4000</option>
+                            <option>4000 - 4500</option>
+                            <option>4500 - 5000</option>
+                        </optgroup>
+                        <optgroup label="Defence">
+                            <option>0 - 500</option>
+                            <option>500 - 1000</option>
+                            <option>1000 - 1500</option>
+                            <option>1500 - 2000</option>
+                            <option>2000 - 2500</option>
+                            <option>2500 - 3000</option>
+                            <option>3000 - 3500</option>
+                            <option>3500 - 4000</option>
+                            <option>4000 - 4500</option>
+                            <option>4500 - 5000</option>
+                        </optgroup>
+                        <optgroup label="Rank">
+                            <option>0.5</option>
+                            <option>1</option>
+                            <option>1.5</option>
+                            <option>2</option>
+                            <option>2.5</option>
+                            <option>3</option>
+                            <option>3.5</option>
+                            <option>4</option>
+                            <option>4.5</option>
+                            <option>5</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="dropdown-wrap">
+                    <select name="drop-down-pages" id="drop-menu-pages">
+                        <option value="1">10</option>
+                        <option value="2">20</option>
+                        <option value="3">40</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div id="wrapper"></div>
+    </div>
+    <div id="pagination-wrapper">
+        <div id="pagination"></div>
+    </div>
+
+
+    <script type="module">
+
+        let container = document.getElementById("wrapper");
+        let extendedScreen = document.getElementById("screen");
+
+        let tempKeeper = document.createElement("div")
+
+        tempKeeper.innerHTML += `<div class="container">
+        <img class="card-img">
+            <div class="card">
+                <div class="card-info">
+                    <div class="info"></div>
+                    <div class="info"></div>
+                    <div class="info"></div>
+                    <div class="info"></div>
+                    <div class="info"></div>
+                    <div class="info"></div>
+                    <div class="button-wrapper">
+                        <button class="check"><i class="fa-solid fa-eye"></i></button>
+                        <button class="getCard"><i class="fa-solid fa-cart-shopping"></i> Buy</button>
+                    </div>
+                </div>
+            </div>
+    </div>`
+
+        function createCard(src, name, atk, def, price, rank, id) {
+            let clone = tempKeeper.children[0].cloneNode("deep");
+            clone.children[0].src = src;
+
+            let infoChild = clone.children[1].children[0];
+            infoChild.children[0].innerHTML = name;
+            infoChild.children[1].innerHTML = "Attack: " + atk;
+            infoChild.children[2].innerHTML = "Defence: " + def;
+            infoChild.children[3].innerHTML = "Price: " + price + "$";
+            infoChild.children[4].innerHTML = "Rank: " + rank;
+            infoChild.children[5].innerHTML = "Id: " + id;
+            return clone;
+        }
+
+        let e = document.querySelector("#drop-menu-pages");
+        let list_items;
+        const pagination_element = document.getElementById('pagination');
+        let current_page = 1;
+
+        function onChange() {
+            var value = e.value;
+            var text = e.options[e.selectedIndex].text;
+            return Number(text)
+        }
+
+        function DisplayList(items, wrapper, rows_per_page, page) {
+            wrapper.innerHTML = "";
+            page--;
+
+            let start = rows_per_page * page;
+            let end = start + rows_per_page;
+            let paginatedItems = items.slice(start, end);
+
+            for (let i = 0; i < paginatedItems.length; i++) {
+                let item = paginatedItems[i];
+                wrapper.appendChild(createCard("/cardImages/" + item.imgName, item.name, item.attack, item.defence, item.price, item.rank, item.id));
+            }
+        }
+
+        function PaginationButton(page, items) {
+            let button = document.createElement('button');
+            button.innerText = page;
+
+            if (current_page == page) button.classList.add('active');
+
+            button.addEventListener('click', function () {
+                current_page = page;
+                DisplayList(items, container, onChange(), current_page);
+
+                let current_btn = document.querySelector('#pagination button.active');
+
+                current_btn.classList.remove('active');
+
+                button.classList.add('active');
+            });
+
+            return button;
+        }
+
+        function SetupPagination(items, wrapper, rows_per_page) {
+            wrapper.innerHTML = "";
+
+            let page_count = Math.ceil(items.length / rows_per_page);
+            for (let i = 1; i < page_count + 1; i++) {
+                let btn = PaginationButton(i, items);
+                wrapper.appendChild(btn);
+            }
+        }
+
+        e.onchange = function () {
+            current_page = 1
+            DisplayList(list_items, container, onChange(), current_page);
+            SetupPagination(list_items, pagination_element, onChange());
+        };
+
+
+        function removeDuplicates(set1, set2) {
+            const newSet = {};
+            for (const key in set1) {
+                if (!set2[key]) {
+                    newSet[key] = set1[key];
+                }
+            }
+            return newSet;
+        }
+
+
+        fetch("/cardData")
+            .then((response) => response.json())
+            .then((data) => {
+                fetch("/currentProfile")
+                    .then((response) => response.json())
+                    .then((dataa) => {
+                        list_items = Object.values(removeDuplicates(data, dataa.cardCollection))
+                        DisplayList(list_items, container, onChange(), current_page);
+                        SetupPagination(list_items, pagination_element, onChange());
+                    })
+            }
+            )
+
+        document.querySelector("#wrap-header > div > div.input-group > input").addEventListener("keyup", function (e) {
+            current_page = 1
+            const searchString = e.target.value.toLowerCase();
+            let filteredCards = []
+            for (let i in list_items) {
+                if (list_items[i].name.toLowerCase().includes(searchString)/*||//card.attack.toLowerCase().includes(searchString)*/) {
+                    filteredCards.push(list_items[i])
+                }
+            }
+
+            DisplayList(filteredCards, container, onChange(), current_page);
+            SetupPagination(filteredCards, pagination_element, onChange());
+        })
+
+
+        const dropMenu = document.getElementById('drop-menu');
+
+        dropMenu.addEventListener('change', (event) => {
+            const selectedOption = event.target.options[event.target.selectedIndex];
+            const optgroupLabel = selectedOption.parentNode.label;
+
+            current_page = 1
+
+            function filterByRange(property, targetEl, set) {
+                let pointRange = targetEl.split(" - ")
+                let lowP = Number(pointRange[0]);
+                let endP = Number(pointRange[1]);
+                let filteredCards = []
+                for (let i in set) {
+                    if (set[i][property] >= lowP && set[i][property] <= endP) {
+                        filteredCards.push(set[i])
+                    }
+                }
+
+                DisplayList(filteredCards, container, onChange(), current_page);
+                SetupPagination(filteredCards, pagination_element, onChange());
+            }
+            function filterByRank(targetEl, set) {
+                let filteredCards = []
+                for (let i in set) {
+                    if (set[i].rank == targetEl) {
+                        filteredCards.push(set[i])
+                    }
+                }
+                DisplayList(filteredCards, container, onChange(), current_page);
+                SetupPagination(filteredCards, pagination_element, onChange());
+            }
+
+            //TODO optimize iteration
+            if (optgroupLabel === 'Attack') {
+                filterByRange('attack', event.target.value, list_items)
+            } else if (optgroupLabel === 'Defence') {
+                filterByRange('defence', event.target.value, list_items)
+            } else if (optgroupLabel === 'Rank') {
+                filterByRank(event.target.value, list_items)
+            }
+        });
+
+
+
+
+        import * as THREE from 'https://cdn.skypack.dev/three@0.138.0'
+        let scene = new THREE.Scene();
+        let camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        let renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setClearColor(0x000000, 0); // the default
+        renderer.setSize(window.innerWidth, window.innerHeight);
+
+        window.addEventListener("resize", function () {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setPixelRatio(window.devicePixelRatio);
+        })
+
+        extendedScreen.appendChild(renderer.domElement);
+
+        let texture = new THREE.TextureLoader().load("/cardImages/cardBack.png");
+        let texture2 = new THREE.TextureLoader().load("/cardImages/cardBack.png");
+        let group = new THREE.Group();
+        const geometry = new THREE.PlaneGeometry(2.5, 4);
+
+        camera.position.z = 5;
+
+        let anim = false
+        function animate() {
+            requestAnimationFrame(animate);
+
+            if (anim == true) {
+                group.rotation.y += 0.01;
+                renderer.render(scene, camera);
+                console.log("ye")
+            }
+
+        };
+        animate();
+
+
+        container.addEventListener("click", function (e) {
+            let firstSource
+            let secSource
+            if (e.target.tagName == "BUTTON") {
+                if (e.target.children[0].tagName == "I") {
+                    if (e.target.children[0].className == "fa-solid fa-eye") {
+                        firstSource = e.target.parentElement.parentElement.parentElement.parentElement.children[0].src
+                    } else if (e.target.children[0].className == "fa-solid fa-cart-shopping") {
+                        secSource = e.target.parentElement.parentElement.children[5]
+                    }
+                }
+            }
+            if (e.target.tagName == "I") {
+                if (e.target.parentElement.tagName == "BUTTON") {
+                    if (e.target.parentElement.className == "check") {
+                        firstSource = e.target.parentElement.parentElement.parentElement.parentElement.parentElement.children[0].src
+                    } else if (e.target.parentElement.className == "getCard") {
+                        secSource = e.target.parentElement.parentElement.parentElement.children[5]
+                    }
+                }
+            }
+            if (secSource) {
+                secSource = secSource.innerHTML.split("Id: ")[1]
+                fetch("/currentProfile")
+                    .then((response) => response.json())
+                    .then((data) => {
+                        fetch(`/cardData/:${secSource}`)
+                            .then((res) => res.json())
+                            .then((card) => {
+                                if (!data.cardCollection[card.id]) {
+                                    if (data.playerMoney >= card.price) {
+                                        data.cardCollection[card.id] = card
+                                        data.playerMoney -= card.price
+                                        fetch("/currentProfile", {
+                                            method: "POST",
+                                            headers: {
+                                                "Content-Type": "application/json",
+                                            },
+                                            body: JSON.stringify(data)
+                                        }).then((ress) => {
+                                            ress.json()
+                                            alert(`You just bought ${card.name}`)
+                                        }).catch(error => {
+                                            return Promise.reject()
+                                        })
+                                    } else {
+                                        alert(`Not enough money, your current balance is: ${data.playerMoney}$`)
+                                    }
+                                } else {
+                                    alert(`You already have ${card.name}, please buy other card.`)
+                                }
+                            }
+                            )
+                    }
+                    )
+            }
+            if (firstSource) {
+                extendedScreen.style.display = "block"
+                let texture = new THREE.TextureLoader().load(firstSource);
+                let texture2 = new THREE.TextureLoader().load("/cardImages/cardBack.png");
+                group.add(new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({ map: texture, side: THREE.FrontSide })));
+                group.add(new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({ map: texture2, side: THREE.BackSide })));
+                scene.add(group);
+                anim = true
+            }
+        })
+        extendedScreen.addEventListener("click", function () {
+            extendedScreen.style.display = "none"
+
+            anim = false
+
+        })
+    </script>
+</body>
+
+</html>

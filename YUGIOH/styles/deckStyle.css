@@ -1,0 +1,11 @@
+#collection {
+    width: 100%;
+    height: calc(100% - 70px);
+    overflow: auto;
+    display: grid;
+    justify-content: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-rows: repeat(auto-fill, 350px);
+    padding: 20px 0px 20px 0px;
+}
