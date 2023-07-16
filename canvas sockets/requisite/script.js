@@ -52,11 +52,15 @@ function createCircle(playerName, x, y, color) {
 }
 
 createPlayerButton.addEventListener("click", function (e) {
-    if (!players[player.value]) {
-        socket.emit('create player', { name: player.value, color: getRandomColor() });
-        wrapper.style.display = "none"
-    } else {
-        alert("PLAYER ALREADY EXISTS, PLEASE CHANGE YOUR NAME!")
+  if(player.value.length !=0){
+        if (!players[player.value]) {
+            socket.emit('create player', { name: player.value, color: getRandomColor() });
+            wrapper.style.display = "none"
+        } else {
+            alert("PLAYER ALREADY EXISTS, PLEASE CHANGE YOUR NAME!")
+        }
+    }else{
+        alert("Type name")
     }
 })
 
