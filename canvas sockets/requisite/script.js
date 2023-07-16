@@ -9,7 +9,6 @@ let wrapper = document.getElementById("wrapper")
 let player = document.getElementById("playerName")
 let createPlayerButton = document.getElementById("createPlayerButton")
 
-
 let x = canvas.width / 2;
 let y = canvas.height / 2;
 
@@ -19,8 +18,6 @@ window.addEventListener("resize", function () {
     x = canvas.width / 2;
     y = canvas.height / 2;
 });
-
-
 
 ctx.textBaseline = 'middle';
 ctx.textAlign = "center";
@@ -42,7 +39,6 @@ function getRandomColor() {
 
 function createDataForCircle(playerInfo) {
     players[playerInfo.name] = { name: playerInfo.name, x: canvas.width / 2, y: canvas.height / 2, color: playerInfo.color }
-
 }
 
 function createCircle(playerName, x, y, color) {
@@ -53,7 +49,6 @@ function createCircle(playerName, x, y, color) {
     ctx.fillStyle = "black"
     ctx.fillText(playerName, x, y);
     ctx.stroke();
-
 }
 
 createPlayerButton.addEventListener("click", function (e) {
