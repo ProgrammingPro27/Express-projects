@@ -16,7 +16,7 @@
     <script src="/requisite/userListComponent.js"></script>
     <script>
         let socket = io();
-        let fullPath = window.location.pathname.split("/")[1]
+        let fullPath = decodeURIComponent(window.location.pathname.split("/")[1])
 
         socket.emit('join room', fullPath);
         socket.emit('get rooms users', fullPath);
